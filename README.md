@@ -28,3 +28,11 @@ docker build -t php_container .
 ＃ コンテナ起動
 docker run --name php_container -d -p 80:80 -p 443:443 php_container:lates
 ```
+
+hosts 設定
+
+```
+127.0.0.1 nishimu.com
+```
+
+ブラウザで `http://nisimu.com` の表示を確認
