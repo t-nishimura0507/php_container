@@ -26,7 +26,7 @@ php_container
 docker build -t php_container .
 
 ＃ コンテナ起動
-docker run --name php_container -d -p 80:80 -p 443:443 php_container:lates
+docker run --name php_container -d -p 80:80 -p 443:443 php_container:latest
 ```
 
 hosts 設定
